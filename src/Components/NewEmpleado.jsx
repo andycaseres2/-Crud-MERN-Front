@@ -14,7 +14,7 @@ export const NewEmpleado = () => {
     phone: "",
   }
   return (
-    <div className="w-full flex flex-col px-2 md:px-20">
+    <div className="w-full flex flex-col px-2 md:px-20 ">
       <div className="w-full flex justify-between items-center px-4 md:px-20 py-10">
         <button
           onClick={() => navigate("/")}
@@ -35,7 +35,7 @@ export const NewEmpleado = () => {
       >
         {(formik) => {
           return (
-            <div className="w-full px-8 md:px-32">
+            <div className="w-full px-8 md:px-32 ">
               <Form>
                 <div className="w-full flex flex-col gap-4 justify-between items-center">
                   <div className="w-full flex justify-between items-center">
